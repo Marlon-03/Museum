@@ -1,0 +1,497 @@
+.body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header-section {
+    background-color: black;
+}
+
+a.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+a.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bannner-div {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.bannner-div img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.first {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    text-align: start;
+}
+
+.text-overlay p {
+    font-family: 'Times New Roman', Times, serif;
+    columns: white;
+}
+
+.history {
+    color: white;
+    font-size: 32px;
+}
+
+.metro {
+    color: white;
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+button.event-button {
+    background-color: transparent;
+    border: 3px solid #E4DA59;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 8px 15px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fa-search {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+
+/* second-section */
+
+.mb-3 {
+    background-color: black;
+}
+
+.card-body {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.rounded {
+    border-radius: 0 0!important;
+}
+
+p.card-title {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+p.card-page {
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom:8px;
+}
+
+p.card-text {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+button.learn-button {
+    padding: 2px 8px;
+}
+
+
+/* third-section */
+
+#third {
+    background-color: #F7F7F0;
+}
+
+p.text-gal {
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: regular;
+}
+
+p.text-exp {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+p.card-set {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.card-img {
+    padding: 0 0;
+}
+
+#row-grow {
+    display: flex;
+    column-gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* news section */
+
+.card-news {
+    background-color: white;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.card-first {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: regular;
+    margin-bottom: 0px;
+}
+
+.lorem {
+    font-size: 18px;
+    font-weight: regular;
+    padding-bottom: 15px;
+    line-height: 1.1;
+}
+
+
+/* footer */
+
+p.footer-titlemain {
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+
+p.footer-title {
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+
+p.footer-links {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#id {
+    font-size: 16px;
+}
+
+#term {
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0);
+        padding: 10px;
+        text-align: start;
+    }
+    .history {
+        font-size: 16px;
+    }
+    .metro {
+        font-size: 45px;
+        line-height: 1.1;
+    }
+    button.event-button {
+        background-color: transparent;
+        border: 2px solid #E4DA59;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    p.card-title {
+        font-weight: 200;
+        font-size: 15px;
+    }
+    p.card-page {
+        font-size: 27px;
+        line-height: 1.1;
+        font-weight: bold;
+    }
+    p.card-text {
+        font-weight: 100;
+        font-size: 13px;
+    }
+    button.learn-button {
+        padding: 2px 8px;
+        font-size: 15px;
+    }
+    p.text-gal {
+        padding-top: 50px;
+        font-size: 20px;
+        font-weight: regular;
+    }
+    p.text-exp {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    p.card-set {
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .card-first {
+        font-size: 19px;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+    .card-news {
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card-body {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        padding-left: 70px;
+        padding-bottom: 30px;
+    }
+    .date {
+        font-size: 11px;
+        font-weight: regular;
+        margin-bottom: 0px;
+    }
+    .lorem {
+        font-size: 14px;
+        font-weight: regular;
+        padding-bottom: 15px;
+    }
+    p.footer-titlemain {
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+    p.footer-title {
+        font-weight: 800;
+        font-size: 24px;
+        margin-top: 50px;
+        margin-bottom: 12px;
+    }
+    p.footer-links {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    #id {
+        font-size: 14px;
+    }
+    #term {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-first {
+        line-height: 0.90;
+    }
+    .card-body {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .lorem {
+        font-size: 12px;
+        font-weight: regular;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 540px) {
+    .text {
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0);
+        padding: 10px;
+        text-align: start;
+    }
+    a.navbar-brand {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    a.nav-link {
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .search-box {
+        width: 80%;
+        padding: 6px 12px 3px 3px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .fa-search {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: black;
+    }
+    .history {
+        font-size: 8px;
+    }
+    .metro {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    button.event-button {
+        background-color: transparent;
+        border: 1px solid #E4DA59;
+        color: white;
+        padding: 3px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    p.card-title {
+        font-weight: 200;
+        font-size: 10px;
+    }
+    p.card-page {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.1;
+    }
+    p.card-text {
+        font-weight: 100;
+        font-size: 10px;
+    }
+    button.learn-button {
+        padding: 2px 8px;
+        font-size: 10px;
+    }
+    p.text-gal {
+        padding-top: 50px;
+        font-size: 15px;
+        font-weight: regular;
+    }
+    .card-news {
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    p.text-exp {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    p.card-set {
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .card-first {
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+    .date {
+        font-size: 9px;
+        font-weight: regular;
+        margin-bottom: 0px;
+    }
+    .lorem {
+        font-size: 12px;
+        font-weight: regular;
+        padding-bottom: 15px;
+    }
+    p.footer-titlemain {
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 32px;
+        margin-bottom: 4px;
+    }
+    p.footer-title {
+        font-weight: 800;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 12px;
+    }
+    p.footer-links {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    #all {
+        font-size: 11px;
+    }
+    #term {
+        font-size: 11px;
+    }
+}
