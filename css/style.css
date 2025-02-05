@@ -6,6 +6,27 @@
     background-color: black;
 }
 
+
+.gallery_img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery_img:hover {
+    transform: scale(1.1);
+}
+
+.news_card {
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.news_card:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light gray */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transform: scale(1.02); /* Slight zoom */
+}
+
 a.navbar-brand {
     color: white;
     font-weight: bolder;
@@ -106,7 +127,6 @@ button.event-button {
 .card-body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 70px;
     padding-left: 70px;
 }
 
@@ -495,3 +515,5 @@ p.footer-links {
         font-size: 11px;
     }
 }
+
+
